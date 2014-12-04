@@ -24,5 +24,6 @@ function draw() {
 
 
 	image(ballon1,230,430+cos(t1*2*PI)*50,101,151);
+	image(ballon2,100,200+cos(t1*3*PI)*50,120,125);
     
 }
