@@ -23,6 +23,6 @@ function draw() {
 	var t1 = (new Date()%6000)/6000;
 
 
-	image(ballon1,230,430+cos(t1*2*PI)*50,30,31);
+	image(ballon1,230,430+cos(t1*2*PI)*50,101,151);
     
 }
