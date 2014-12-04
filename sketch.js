@@ -20,6 +20,6 @@ function setup() {
 function draw() {
 
 	background(bg);
-	 image(ballon,230,430+cos(t1*2*PI)*50,30,31);
+	image(ballon1,230,430+cos(t1*2*PI)*50,30,31);
     
 }
