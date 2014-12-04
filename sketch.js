@@ -24,7 +24,7 @@ function draw() {
 	background(bg);
 	var t1 = (new Date()%6000)/6000;
 	for(var i = 0 ; i < 5 ;i++){
-		image(ballon1,230+sin(t1*2*PI+2*PI/5*i)*10-10,430+cos(t1*2*PI+2*PI/5*i)*10-10,20,20);
+		image(ballon1,230+sin(t1*2*PI+2*PI/5*i)*100-10,430+cos(t1*2*PI+2*PI/5*i)*100-10,20,20);
 	}
 
 
