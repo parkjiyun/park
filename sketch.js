@@ -16,7 +16,7 @@ function setup() {
 	wheel3 = loadImage("wheel3.png");
 	vd = createVideo(["mickey.mp4"]);
 	vd.loop();
-	vd.hide();
+	// vd.hide();
 }
 
 
