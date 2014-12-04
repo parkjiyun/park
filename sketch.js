@@ -39,5 +39,13 @@ function draw() {
   	}else{
     image(flag2,10,10,1500,293);
   	} 
+
+  	vd.loadPixels();
+	for(var j = 0 ; j < 480; j+=10){
+		for(var i = 0; i < 720; i+=10){
+			fill(vd.pixels[4*(i+j*720)],vd.pixels[4*(i+j*720)+1],vd.pixels[4*(i+j*720)+2]);
+			rect(i,j,10,10);
+		}
+	}  	
     
 }
