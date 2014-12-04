@@ -28,5 +28,11 @@ function draw() {
 	image(ballon1,1350,100+cos(t1*2*PI)*10,101,151);
 	image(ballon2,1000,480+cos(t1*8*PI)*10,120,125);
 	image(ballon2,1400,200+cos(t1*1*PI)*50,120,125);
+
+  	if(tDig <0.5){
+    image(flag,10,10,1500,293);
+  	}else{
+    image(flag2,10,10,1500,293);
+  	} 
     
 }
