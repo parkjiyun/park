@@ -1,5 +1,5 @@
 var bg, ballon1, ballon2, cloud, flag, flag2, horse1, horse2, play1, play2, wheel, wheel2, wheel3;
-
+var vd;
 function setup() {
     createCanvas(1500,1000);
 	bg = loadImage("bg.png");
@@ -14,6 +14,8 @@ function setup() {
 	wheel = loadImage("wheel.png");
 	wheel2 = loadImage("wheel2.png");
 	wheel3 = loadImage("wheel3.png");
+	vd = createVideo('mickey.avi');
+	vd.loop();
 }
 
 
