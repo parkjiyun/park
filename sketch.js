@@ -21,7 +21,7 @@ function setup() {
 
 
 function draw() {
-
+//
 	background(bg);
 	var t1 = (new Date()%6000)/6000;
 	for(var i = 0 ; i < 5 ;i++){
