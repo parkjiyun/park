@@ -29,10 +29,10 @@ function draw() {
 
 
 	image(ballon1,230,430+cos(t1*2*PI)*10,101,151);
-	image(ballon2,100,200+cos(t1*6*PI)*50,120,125);
+	image(ballon2,100,300+cos(t1*6*PI)*50,120,125);
 	image(ballon1,1350,200+cos(t1*8*PI)*10,101,151);
 	image(ballon2,1000,480+cos(t1*8*PI)*10,120,125);
-	image(ballon2,1150,400+cos(t1*2*PI)*50,120,125);
+	image(ballon2,1280,500+cos(t1*2*PI)*50,120,125);
 
   	if(tf <0.5){
     image(flag,-20,-20,1500,293);
