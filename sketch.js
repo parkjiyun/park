@@ -29,6 +29,10 @@ function draw() {
 		image(wheel3,1055+sin(t1*2*PI+2*PI/5*i)*100-10,750+cos(t1*2*PI+2*PI/5*i)*100-5,53,50);
 	}
 
+	for(var i = 0 ; i < 5 ;i++){
+		image(wheel,1055+sin(t1*2*PI+2*PI/5*i)*100-10,750+cos(t1*2*PI+2*PI/5*i)*100-5,53,50);
+	}
+
 	 var tf = (new Date()%1000)/1000;
 
 
