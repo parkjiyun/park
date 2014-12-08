@@ -35,9 +35,9 @@ function draw() {
 	image(ballon2,1150,200+cos(t1*2*PI)*50,120,125);
 
   	if(tf <0.5){
-    image(flag,0,0,1500,293);
+    image(flag,-10,-10,1500,293);
   	}else{
-    image(flag2,0,0,1500,293);
+    image(flag2,-10,-10,1500,293);
   	} 
 
     
