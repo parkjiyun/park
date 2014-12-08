@@ -1,5 +1,4 @@
 var bg, ballon1, ballon2, cloud, flag, flag2, horse1, horse2, play1, play2, wheel, wheel2, wheel3;
-var vd;
 function setup() {
     createCanvas(1500,1000);
 	bg = loadImage("bg.png");
@@ -14,7 +13,7 @@ function setup() {
 	wheel = loadImage("wheel.png");
 	wheel2 = loadImage("wheel2.png");
 	wheel3 = loadImage("wheel3.png");
-	// vd.hide();
+
 }
 
 
@@ -29,9 +28,9 @@ function draw() {
 
 	image(ballon1,230,430+cos(t1*2*PI)*10,101,151);
 	image(ballon2,100,200+cos(t1*6*PI)*50,120,125);
-	image(ballon1,1350,100+cos(t1*2*PI)*10,101,151);
+	image(ballon1,1350,100+cos(t1*8*PI)*10,101,151);
 	image(ballon2,1000,480+cos(t1*8*PI)*10,120,125);
-	image(ballon2,1400,200+cos(t1*12*PI)*50,120,125);
+	image(ballon2,1250,200+cos(t1*2*PI)*50,120,125);
 
   	if(tDig <0.5){
     image(flag,10,10,1500,293);
