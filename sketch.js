@@ -25,14 +25,16 @@ function draw() {
 		image(ballon1,230+sin(t1*2*PI+2*PI/5*i)*100-10,430+cos(t1*2*PI+2*PI/5*i)*100-10,20,20);
 	}
 
+	 var tf = (new Date()%1000)/1000;
+
 
 	image(ballon1,230,430+cos(t1*2*PI)*10,101,151);
 	image(ballon2,100,200+cos(t1*6*PI)*50,120,125);
 	image(ballon1,1350,100+cos(t1*8*PI)*10,101,151);
 	image(ballon2,1000,480+cos(t1*8*PI)*10,120,125);
-	image(ballon2,1250,200+cos(t1*2*PI)*50,120,125);
+	image(ballon2,1150,200+cos(t1*2*PI)*50,120,125);
 
-  	if(tDig <0.5){
+  	if(tf <0.5){
     image(flag,10,10,1500,293);
   	}else{
     image(flag2,10,10,1500,293);
