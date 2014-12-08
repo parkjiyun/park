@@ -14,8 +14,6 @@ function setup() {
 	wheel = loadImage("wheel.png");
 	wheel2 = loadImage("wheel2.png");
 	wheel3 = loadImage("wheel3.png");
-	vd = createVideo(["mickey.mp4"]);
-	vd.loop();
 	// vd.hide();
 }
 
@@ -41,6 +39,5 @@ function draw() {
     image(flag2,10,10,1500,293);
   	} 
 
-  	image(vd,100,100);
     
 }
