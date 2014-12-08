@@ -22,15 +22,11 @@ function draw() {
 	background(bg);
 	var t1 = (new Date()%6000)/6000;
 	for(var i = 0 ; i < 5 ;i++){
-		image(wheel2,1055+sin(t1*2*PI+2*PI/5*i)*100-5,750+cos(t1*2*PI+2*PI/5*i)*100-5,53,50);
+		image(wheel2,1055+sin(t1*2*PI+2*PI/5*i)*150-5,750+cos(t1*2*PI+2*PI/5*i)*150-5,53,50);
 	}
 
 	for(var i = 0 ; i < 5 ;i++){
-		image(wheel3,1055+sin(t1*2*PI+2*PI/5*i)*100-10,750+cos(t1*2*PI+2*PI/5*i)*100-5,53,50);
-	}
-
-	for(var i = 0 ; i < 5 ;i++){
-		image(wheel,1055+sin(t1*2*PI+2*PI/5*i)*100-10,750+cos(t1*2*PI+2*PI/5*i)*100-5,53,50);
+		image(wheel3,1055+sin(t1*2*PI+2*PI/5*i)*150-10,750+cos(t1*2*PI+2*PI/5*i)*150-5,53,50);
 	}
 
 	 var tf = (new Date()%1000)/1000;
