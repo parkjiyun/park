@@ -2,6 +2,7 @@ var bg, ballon1, ballon2, cloud, flag, flag2, horse1, horse2, play1, play2, whee
 function setup() {
     createCanvas(1500,1000);
 	bg = loadImage("bg.png");
+	cloud = loadImage("cloud.png");
 	ballon1 = loadImage("ballon1.png");
 	ballon2 = loadImage("ballon2.png");
 	flag = loadImage("flag.png");
@@ -20,6 +21,8 @@ function setup() {
 function draw() {
 
 	background(bg);
+
+    image(cloud,10+sin(t1*1)*1000,10,1500,1000);
 	var t1 = (new Date()%6000)/6000;
 	for(var i = 0 ; i < 5 ;i++){
 		image(wheel2,1055+sin(t1*2*PI+2*PI/5*i)*150-5,750+cos(t1*2*PI+2*PI/5*i)*150-5,53,50);
