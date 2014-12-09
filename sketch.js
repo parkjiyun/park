@@ -26,17 +26,17 @@ function draw() {
 	var t1 = (new Date()%6000)/6000;
 	var tf = (new Date()%1000)/1000;
 
-	image(play1,40,850,118,164);
-		image(play2,40,850+cos(t1*4*PI)*10,118,164);
-	image(horse1,1250,880,166,136);
-		image(horse2,1250,880+cos(t1*4*PI)*10,166,136);
+	image(play1,40,840,118,164);
+		image(play2,40,840+cos(t1*4*PI)*10,118,164);
+	image(horse1,1250,860,166,136);
+		image(horse2,1250,860+cos(t1*4*PI)*10,166,136);
 
 	//관람차
 	for(var i = 0 ; i < 5 ;i++){
 		image(wheel2,1055+sin(t1*2*PI+2*PI/5*i)*150-5,750+cos(t1*2*PI+2*PI/5*i)*150-5,53,50);
 	}
 
-	for(var i = 0 ; i < 2.5 ;i++){
+	for(var i = 0 ; i < 5 ;i++){
 		image(wheel3,1055+sin(t1*2*PI+2*PI/5*i)*150-10,750+cos(t1*2*PI+2*PI/5*i)*150-5,53,50);
 	}
 
