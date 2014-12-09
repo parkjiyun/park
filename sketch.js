@@ -26,10 +26,10 @@ function draw() {
 	var t1 = (new Date()%6000)/6000;
 	var tf = (new Date()%1000)/1000;
 
-	image(play1,40,780,108,154);
-		image(play2,40,780+cos(t1*4*PI)*10,108,154);
-	image(horse1,1300,780,156,126);
-		image(horse2,1300,780+cos(t1*4*PI)*10,156,126);
+	image(play1,40,790,118,164);
+		image(play2,40,790+cos(t1*4*PI)*10,118,164);
+	image(horse1,1250,790,166,136);
+		image(horse2,1250,790+cos(t1*4*PI)*10,166,136);
 	//관람차
 	for(var i = 0 ; i < 5 ;i++){
 		image(wheel2,1055+sin(t1*2*PI+2*PI/5*i)*150-5,750+cos(t1*2*PI+2*PI/5*i)*150-5,53,50);
