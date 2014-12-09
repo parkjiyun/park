@@ -28,7 +28,7 @@ function draw() {
 
 
 	//구름
-    image(cloud,0+sin(t1*1)*3000,0,1500,1000);
+    image(cloud,0+sin(t1*10)*2000,0,1500,1000);
 
 	//관람차
 	for(var i = 0 ; i < 5 ;i++){
