@@ -27,7 +27,9 @@ function draw() {
 	var tf = (new Date()%1000)/1000;
 
 	image(play1,40,900,108,154);
+		image(play2,40,900+cos(t1*4*PI)*10,108,154);
 	image(horse1,1380,900,156,126);
+
 	//관람차
 	for(var i = 0 ; i < 5 ;i++){
 		image(wheel2,1055+sin(t1*2*PI+2*PI/5*i)*150-5,750+cos(t1*2*PI+2*PI/5*i)*150-5,53,50);
