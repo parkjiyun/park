@@ -52,9 +52,9 @@ function draw() {
 
 	//깃발
   	if(tf <0.5){
-    image(flag,-10,-20,1500,293);
+    image(flag,-05,-20,1500,293);
   	}else{
-    image(flag2,-10,-20,1500,293);
+    image(flag2,-05,-20,1500,293);
   	} 
 
     
