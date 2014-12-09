@@ -23,7 +23,7 @@ function draw() {
 	background(bg);
 
 
-	var t1 = (new Date()%6000)/1000;
+	var t1 = (new Date()%6000)/6000;
 	var tf = (new Date()%1000)/1000;
 
 
@@ -41,7 +41,7 @@ function draw() {
 	//구름
     image(cloud,0+sin(t1*1)*500,0,1500,1000);
 
-    
+
     //풍선들
 	image(ballon1,230,430+cos(t1*2*PI)*10,101,151);
 	image(ballon2,100,300+cos(t1*6*PI)*50,120,125);
