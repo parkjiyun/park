@@ -26,8 +26,8 @@ function draw() {
 	var t1 = (new Date()%6000)/6000;
 	var tf = (new Date()%1000)/1000;
 
-	image(play1,40,905,118,164);
-		image(play2,40,905+cos(t1*4*PI)*10,118,164);
+	image(play1,40,890,118,164);
+		image(play2,40,890+cos(t1*4*PI)*10,118,164);
 	image(horse1,1250,910,166,136);
 		image(horse2,1250,910+cos(t1*4*PI)*10,166,136);
 	//관람차
