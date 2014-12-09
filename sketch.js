@@ -27,6 +27,9 @@ function draw() {
 	var tf = (new Date()%1000)/1000;
 
 
+	//구름
+    image(cloud,0+sin(t1*1)*1000,0,1500,2000);
+
 	//관람차
 	for(var i = 0 ; i < 5 ;i++){
 		image(wheel2,1055+sin(t1*2*PI+2*PI/5*i)*150-5,750+cos(t1*2*PI+2*PI/5*i)*150-5,53,50);
@@ -37,10 +40,6 @@ function draw() {
 	}
 
 
-
-	//구름
-    image(cloud,0+sin(t1*1)*1000,0,1500,1000);
-    
     //풍선들
 	image(ballon1,230,430+cos(t1*2*PI)*10,101,151);
 	image(ballon2,100,300+cos(t1*6*PI)*50,120,125);
