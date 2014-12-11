@@ -25,7 +25,7 @@ function draw() {
 
 	background(bg);
 
-	image(video,390,200);
+	image(video,390, 70);
 
 	var t1 = (new Date()%6000)/6000;
 	var tf = (new Date()%1000)/1000;
