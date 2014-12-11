@@ -45,7 +45,7 @@ function draw() {
 	}
 
 	//구름
-    image(cloud,0+(sin(t1*2*PI)+1)/2*1500,0,1500,1000);
+    image(cloud,0+sin(t1*PI/2)*1500,0,1500,1000);
 
 
     //풍선들
