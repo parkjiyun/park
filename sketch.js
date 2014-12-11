@@ -1,4 +1,5 @@
 var bg, ballon1, ballon2, cloud, flag, flag2, horse1, horse2, play1, play2, wheel, wheel2, wheel3;
+var video;
 function setup() {
     createCanvas(1500,1000);
 	bg = loadImage("bg.png");
@@ -15,6 +16,8 @@ function setup() {
 	wheel2 = loadImage("wheel2.png");
 	wheel3 = loadImage("wheel3.png");
 
+	video = createVideo(["mickey.mp4"]);
+	video.loop();
 }
 
 
@@ -22,6 +25,7 @@ function draw() {
 
 	background(bg);
 
+	image(video,100,100);
 
 	var t1 = (new Date()%6000)/6000;
 	var tf = (new Date()%1000)/1000;
